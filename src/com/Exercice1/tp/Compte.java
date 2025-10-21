@@ -34,7 +34,6 @@ public abstract class Compte {
         }
     }
 
-    /** Transfert d’un compte à un autre */
     public void transfert(Compte autre, double montant) {
         if (autre == null) {
             System.out.println("Transfert impossible : compte destinataire nul");
